@@ -33,11 +33,11 @@
           "comment": "c.Tap"
         }
       ],
-      "expanded": true,
+      "expanded": false,
       "id": "78eb27fe-04ec-43ef-9652-588e39bcecb5",
       "display_text": null,
       "raw_input": "[{\"Key\":\"CONDITION\",\"Value\":\"hasElement(//div[@class=\\\\\"start-btn\\\\\" and text()=\\\\\"Tap\\\\\"])\"}]",
-      "comment": "JEEZ DAILY TASK"
+      "comment": "Nv ngày 0512"
     }
   }
 ]
