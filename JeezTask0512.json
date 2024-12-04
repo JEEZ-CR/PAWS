@@ -1,0 +1,43 @@
+[
+  {
+    "$type": "GPMAutomateEditor.Models.UIModels.UIBlock, GPMAutomateEditor.Models",
+    "BlockType": "IfBlock",
+    "DisplayName": "If",
+    "Icon": "Resources/Images/project_diagram_16px.png",
+    "Inputs": [
+      {
+        "$type": "GPMAutomateEditor.Models.UIModels.UIInput, GPMAutomateEditor.Models",
+        "Label": "CONDITION",
+        "Key": "CONDITION",
+        "Default": null,
+        "Type": "Text",
+        "PlaceHolder": null,
+        "ComboboxData": [],
+        "ShowCondition": null
+      }
+    ],
+    "HideOnLeftMenu": false,
+    "IgnoreErrorMessage": false,
+    "NodeData": {
+      "$type": "GPMAutomateEditor.Models.IfBlockNode, GPMAutomateEditor.Models",
+      "nodes": [
+        {
+          "$type": "GPMAutomateEditor.Models.ActionNode, GPMAutomateEditor.Models",
+          "type": 48,
+          "element_xpath": null,
+          "output_variable_name": null,
+          "delay": "2000",
+          "id": "6e55f093-c0ea-4354-8e59-789ebb700165",
+          "display_text": null,
+          "raw_input": "[{\"Key\":\"CLICK_TYPE\",\"Value\":\"CLICK_XPATH\"},{\"Key\":\"XPATH\",\"Value\":\"//div[@class=\\\\\"start-btn\\\\\" and text()=\\\\\"Tap\\\\\"]\"},{\"Key\":\"POS\",\"Value\":\"\"}]",
+          "comment": "c.Tap"
+        }
+      ],
+      "expanded": true,
+      "id": "78eb27fe-04ec-43ef-9652-588e39bcecb5",
+      "display_text": null,
+      "raw_input": "[{\"Key\":\"CONDITION\",\"Value\":\"hasElement(//div[@class=\\\\\"start-btn\\\\\" and text()=\\\\\"Tap\\\\\"])\"}]",
+      "comment": "JEEZ TASK 0512"
+    }
+  }
+]
